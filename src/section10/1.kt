@@ -13,4 +13,4 @@ val halveValue: (Int) -> Int = { x -> x / 2 }
 
 val processNumber = pipe(increment, doubleValue, squareValue, halveValue)
 
-println(processNumber(3)) // Output: 16
+println(processNumber(3))
