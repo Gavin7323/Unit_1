@@ -1,4 +1,4 @@
-package section10
+package Section10
 
 fun <T> pipe(vararg functions: (T) -> T): (T) -> T {
     return { input: T ->
